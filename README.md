@@ -32,15 +32,15 @@ This JavaScript file handles the functionality of the shopping list webpage. It 
 + Event listeners for user interactions such as clicking the "Add", "Clear", and "Mark Purchased" buttons, as well as    pressing the "Enter" key.
 
 ## Prerequisites
- Install  node js  on your machine 
- Clone the repository (git clone git@github.com:......git <--the ssh code -->)
- A modern webbrowser is required to run the code(e.g Google Chrome)
- Run the html file using Visual Studio live server
+- Install  node js  on your machine 
+- Clone the repository (git clone git@github.com:......git <--the ssh code -->)
+- A modern webbrowser is required to run the code(e.g Google Chrome)
+- Run the html file using Visual Studio live server
 
 ## Author:Martha Mwangi
  If you encounter any issues with the code or need assistance, kindly reach out through:
- email ..<marthawanguimwangi4@gmail.com> 
- contact ..<+254745418529>
+- email ..<marthawanguimwangi4@gmail.com> 
+- contact ..<+254745418529>
 
 ## License
  MIT License
