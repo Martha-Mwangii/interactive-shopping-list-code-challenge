@@ -11,9 +11,9 @@ This Interactive Shopping List webpage allows users to add, edit, delete, and ma
 
 ### index.html
 Defines the structure of the webpage and includes:
-+ A header (<h1>) with the title "Shopping List".
++ A header <h1>
 + An input field and "Add" button for adding new items to the list.
-+ A list (<ul>) where items are displayed.
++ A list <ul> where items are displayed.
 + Buttons for "Mark Purchased" and "Clear List".
 + A script tag that links it to the index.js file that handles the interactivity.
 
