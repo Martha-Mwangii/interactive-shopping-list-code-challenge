@@ -1,0 +1,147 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the Shopping List  */
+.shopping-list-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input and Add Button Styling */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add Button */
+#add-btn {
+    background-color: #007bff;
+}
+
+#add-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Clear Button */
+#clear-btn {
+    background-color: #dc3545;
+}
+
+#clear-btn:hover {
+    background-color: #a71d2a;
+}
+
+/* Mark All Button */
+#purchased-btn {
+    background-color: #004085;
+}
+
+#purchased-btn:hover {
+    background-color: #002752;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #e2e6ea;
+}
+
+/* Item Text Styling */
+.item-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Purchased Item Styling */
+.purchased .item-text {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #e1d7ec;
+}
+
+/* Button Group (Edit/Delete) */
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+/* Edit Button */
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+/* Button Container for Clear and Mark All Buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
