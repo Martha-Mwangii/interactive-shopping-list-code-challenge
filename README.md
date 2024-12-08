@@ -2,18 +2,18 @@
 This Interactive Shopping List webpage allows users to add, edit, delete, and mark items as purchased. The app uses localStorage, so your items are saved across page reloads. The webpage has a user interface with buttons for adding items, clearing the list, marking all items as purchased, and editing or deleting individual items.The Mark Purchased is used for marking all the items but if one needs to mark individual items they click on the item itself.
 
 ## Features
-***Add Button:*** Adds new items to the shopping list.
-***Edit Button:*** Edit any item that has been added to the list.
-***Delete Button:*** Removes individual items from the list.
-***Mark Purchased Button:*** Marks all items as purchased (they get crossed out).
-***Clear List Button:*** Clears items on the entire shopping list.
-***Persistent Data:*** All items are saved to localStorage hence save the list even after the page reloads.
+- **Add Button:** Adds new items to the shopping list.
+- **Edit Button:** Edit any item that has been added to the list.
+- **Delete Button:** Removes individual items from the list.
+- **Mark Purchased Button:** Marks all items as purchased (they get crossed out).
+- **Clear List Button:** Clears items on the entire shopping list.
+- **Persistent Data:** All items are saved to localStorage, hence save the list even after the page reloads.
 
 ### index.html
 Defines the structure of the webpage and includes:
-+ A header <h1>
++ A header ("Shopping List")
 + An input field and "Add" button for adding new items to the list.
-+ A list <ul> where items are displayed.
++ A list where items are displayed.
 + Buttons for "Mark Purchased" and "Clear List".
 + A script tag that links it to the index.js file that handles the interactivity.
 
