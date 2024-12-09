@@ -1,6 +1,6 @@
 # Interactive Shopping List
 This Interactive Shopping List webpage allows users to add, edit, delete, and mark items as purchased. The app uses localStorage, so your items are saved across page reloads. The webpage has a user interface with buttons for adding items, clearing the list, marking all items as purchased, and editing or deleting individual items.The Mark Purchased is used for marking all the items but if one needs to mark individual items they click on the item itself.
-This is the live page: <https://github.com/Martha-Mwangii/interactive-shopping-list-code-challenge/>
+This is the live page: <https://martha-mwangii.github.io/interactive-shopping-list-code-challenge/>
 
 ## Features
 - ***Add Button:*** Adds new items to the shopping list.
