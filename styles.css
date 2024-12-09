@@ -116,8 +116,8 @@ ul li:hover {
 
 /* Button Group (Edit/Delete) */
 .button-group {
-    display: flex;
-    gap: 5px;
+    display: flex;/* Arrange buttons in a row */
+    gap: 5px;/* Add and assigns space size between buttons */
 }
 
 /* Edit Button */
